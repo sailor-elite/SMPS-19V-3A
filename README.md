@@ -51,9 +51,9 @@ Where:
 
 #### Example Calculation:
 
-For a switching frequency of **130 kHz** (period = 13µs) and a 50% duty cycle, the on-time (\(ton\)) is:
+For a switching frequency of **130 kHz** (period = 7.7µs) and a 50% duty cycle, the on-time (\(ton\)) is:
 
-ton = 50% of 10µs = 5µs
+ton = 50% of 7.7µs = 3.35µs
 
 
 
@@ -63,11 +63,11 @@ Assume the following parameters for an ETD39 core:
 
 Substitute the values into the formula:
 
-Np = (325V × 5µs) / (0.2T × 125 × 10⁻⁶ m²) Np ≈ 84.5 turns
+Np = (325V × 3.35µs) / (0.2T × 125 × 10⁻⁶ m²) Np ≈ 43.5 turns
 
 
 
-Thus, the primary winding requires approximately **85 turns**.
+Thus, the primary winding requires approximately **44 turns**.
 
 
 
@@ -87,9 +87,9 @@ Where:
 
 Substitute the values into the formula:
 
-Ns = 85 / 17 Ns ≈ 5 turns
+Ns = 44 / 17 Ns ≈ 2.5 turns
 
-
+So the turns number is **3**.
 ### Reference Voltage
 
 Using a voltage divider with resistors of **150 kΩ** and **10.2 kΩ** creates the following ratio:
