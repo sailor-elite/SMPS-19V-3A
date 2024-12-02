@@ -9,6 +9,10 @@
 
 ![Schematic](docs/schematic.png)
 
+# PCB 3D VIEW
+
+![PCB_3D_VIEW](docs/3d_view.png)
+
 # CALCULATION
 
 ### Transformer Turns Ratio Calculation
@@ -113,44 +117,44 @@ Vout = 19V * (10.2 / 160.2) ≈ 1.21V
 This is very close to the reference voltage of the **MAX6101**, which is **1.25V**.
 
 # COMPONENTS
-| Reference      | Value             | Datasheet                                                              | Footprint                                    | Qty | DNP |
-|----------------|-------------------|------------------------------------------------------------------------|---------------------------------------------|-----|-----|
-| C1             | 0.01uF/275VAC    | ~                                                                      | Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4 | 1   |     |
-| C2, C3         | 68uF/450V        | ~                                                                      | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm     | 2   |     |
-| C4             | 470pF/630V       | ~                                                                      | Capacitor_SMD:C_1206_3216Metric             | 1   |     |
-| C5             | 22uF/50V         | ~                                                                      | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm     | 1   |     |
-| C6, C9, C10, C15 | 0.1uF/50V      | ~                                                                      | -- mixed values --                          | 4   |     |
-| C7             | 4.7uF/50V        | ~                                                                      | Capacitor_SMD:C_1206_3216Metric             | 1   |     |
-| C8             | 10000pF/100V     | ~                                                                      | Capacitor_SMD:C_1206_3216Metric             | 1   |     |
-| C11            | 16pF/100V        | ~                                                                      | Capacitor_SMD:C_1206_3216Metric             | 1   |     |
-| C12            | 10uF/50V         | ~                                                                      | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm     | 1   |     |
-| C13, C14       | 50uF/120V        | ~                                                                      | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm     | 2   |     |
-| C16            | 2200pF/100V      | ~                                                                      | Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm  | 1   |     |
-| D1             | DF06M            | [Datasheet](http://www.vishay.com/docs/88571/dfm.pdf)                  | Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm | 1   |     |
-| D2             | 1N4148W          | [Datasheet](https://www.vishay.com/docs/85748/1n4148w.pdf)             | Diode_SMD:D_SOD-123                         | 1   |     |
-| D3             | UF5406           | [Datasheet](http://www.vishay.com/docs/88756/uf5400.pdf)               | Diode_THT:D_DO-201AD_P15.24mm_Horizontal    | 1   |     |
-| D4             | ESD5Zxx          | [Datasheet](https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf)     | Diode_SMD:D_SOD-523                         | 1   |     |
-| D5, D6         | SS310            | [Datasheet](https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf) | Diode_SMD:D_SMA                       | 2   |     |
-| F1             | 1000mA           | ~                                                                      | Fuse:Fuse_1210_3225Metric                   | 1   |     |
-| J1             | 6160.0159        | [Datasheet](https://componentsearchengine.com/Datasheets/1/6160.0159.pdf) | private:61600159                         | 1   |     |
-| L1             | L_Coupled_1342   | ~                                                                      | private:WE-SL5_HC                           | 1   |     |
-| Q1             | BSP135H6433XTMA1 | [Datasheet](https://www.infineon.com/dgdl/Infineon-BSP135-DS-v01_33-en.pdf?fileId=db3a30433c1a8752013c1fd4c839399b) | private:SOT230P700X180-4N | 1   |     |
-| Q2             | C3M0065090D      | [Datasheet](https://www.wolfspeed.com/media/downloads/176/C3M0065090D.pdf) | Package_TO_SOT_THT:TO-247-3_Vertical       | 1   |     |
-| R1, R2         | 499K             | ~                                                                      | Resistor_SMD:R_1206_3216Metric              | 2   |     |
-| R3, R4         | 20K              | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 2   |     |
-| R5             | 100              | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R6             | 2M               | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R7             | 10K              | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R8             | 499              | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R9             | 14.7K            | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R10            | 4.42K            | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R11            | 4.75             | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R12            | 0.15             | ~                                                                      | Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal | 1 | |
-| R13            | 150K             | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R14            | 10.2K            | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| R15            | 10K              | ~                                                                      | Resistor_SMD:R_0805_2012Metric              | 1   |     |
-| RV1            | 10D561K          | ~                                                                      | Varistor:RV_Disc_D7mm_W3.6mm_P5mm           | 1   |     |
-| U1             | LM5023           | [Datasheet](https://www.ti.com/lit/ds/symlink/lm5023.pdf)              | Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm       | 1   |     |
-| U2             | PC817            | [Datasheet](http://www.soselectronic.cz/a_info/resource/d/pc817.pdf)   | Package_DIP:DIP-4_W7.62mm                   | 1   |     |
-| U3             | 750313417        | ~                                                                      | private:SMD_13417_WRE                       | 1   |     |
-| U5             | MAX6101          | [Datasheet](http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf) | Package_TO_SOT_SMD:SOT-23                 | 1   |     |
+| Component        | Value          | Package                                    | Quantity |
+|------------------|----------------|--------------------------------------------|----------|
+| C1               | 0.01uF/275VAC  | Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4 | 1        |
+| C2, C3           | 68uF/450V      | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm    | 2        |
+| C4               | 470pF/630V     | Capacitor_SMD:C_1206_3216Metric            | 1        |
+| C5               | 22uF/50V       | Capacitor_THT:CP_Radial_D4.0mm_P2.00mm     | 1        |
+| C6, C9, C10, C15 | 0.1uF/50V      | -- mixed values --                         | 4        |
+| C7               | 4.7uF/50V      | Capacitor_SMD:C_1206_3216Metric            | 1        |
+| C8               | 10000pF/100V   | Capacitor_SMD:C_1206_3216Metric            | 1        |
+| C11              | 16pF/100V      | Capacitor_SMD:C_1206_3216Metric            | 1        |
+| C12              | 10uF/50V       | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm    | 1        |
+| C13, C14         | 50uF/120V      | Capacitor_THT:CP_Radial_D12.5mm_P7.50mm    | 2        |
+| C16              | 2200pF/100V    | Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm | 1        |
+| D1               | DF06M          | Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm | 1        |
+| D2               | 1N4148W        | Diode_SMD:D_SOD-123                        | 1        |
+| D3               | UF5406         | Diode_THT:D_DO-201AD_P15.24mm_Horizontal   | 1        |
+| D4               | ESD5Zxx        | Diode_SMD:D_SOD-523                        | 1        |
+| D5, D6           | SS310          | Diode_SMD:D_SMA                            | 2        |
+| F1               | 1000mA         | Fuse:Fuse_Littelfuse-NANO2-462             | 1        |
+| J1               | 6160.0159      | private:61600159                           | 1        |
+| L1               | L_Coupled_1342 | private:WE-SL5_HC                          | 1        |
+| Q1               | BSP135H6433XTMA1| private:SOT230P700X180-4N                  | 1        |
+| Q2               | C3M0065090D    | Package_TO_SOT_THT:TO-247-3_Vertical       | 1        |
+| R1, R2           | 499K           | Resistor_SMD:R_1206_3216Metric             | 2        |
+| R3, R4           | 20K            | Resistor_SMD:R_0805_2012Metric             | 2        |
+| R5               | 100            | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R6               | 2M             | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R7               | 10K            | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R8               | 499            | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R9               | 14.7K          | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R10              | 4.42k          | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R11              | 4.75           | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R12              | 0.15           | Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal | 1 |
+| R13              | 150k           | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R14              | 10.2k          | Resistor_SMD:R_0805_2012Metric             | 1        |
+| R15              | 10k            | Resistor_SMD:R_0805_2012Metric             | 1        |
+| RV1              | 10D561K        | Varistor:RV_Disc_D7mm_W3.6mm_P5mm          | 1        |
+| U1               | LM5023         | Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm       | 1        |
+| U2               | PC817          | Package_DIP:DIP-4_W7.62mm                  | 1        |
+| U3               | 750313417      | private:SMD_13417_WRE                      | 1        |
+| U5               | MAX6101        | Package_TO_SOT_SMD:SOT-23                  | 1        |
