@@ -10,165 +10,14 @@
 		(company "JABED")
 	)
 	(lib_symbols
-		(symbol "6160_0159:6160.0159"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "6160.0159"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "61600159"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/6160.0159.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "SCHURTER - 6160.0159 - POWER ENTRY, PLUG, 2.5A, PANEL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "16"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "693-6160.0159"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=693-6160.0159"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "SCHURTER"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "6160.0159"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "6160.0159_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "750313417_1"
+		(symbol "2024-11-26_16-51-12:750313417"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
+			(property "Reference" "U"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -184,7 +33,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Transformer_THT:Transformer_Wuerth_750343373"
+			(property "Footprint" "SMD_13417_WRE"
 				(at -3.048 9.398 0)
 				(effects
 					(font
@@ -239,7 +88,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "750313417_1_0_1"
+			(symbol "750313417_0_1"
 				(polyline
 					(pts
 						(xy 7.62 -17.78) (xy 33.02 -17.78)
@@ -505,27 +354,154 @@
 					)
 				)
 			)
-			(symbol "750313417_1_1_1"
-				(rectangle
-					(start 7.62 5.08)
-					(end 33.02 -17.78)
-					(stroke
-						(width 0)
-						(type default)
+		)
+		(symbol "6160_0159:6160.0159"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
+			)
+			(property "Value" "6160.0159"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "61600159"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/6160.0159.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SCHURTER - 6160.0159 - POWER ENTRY, PLUG, 2.5A, PANEL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "16"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "693-6160.0159"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=693-6160.0159"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SCHURTER"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "6160.0159"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "6160.0159_1_1"
 				(rectangle
-					(start 7.62 5.08)
-					(end 33.02 -17.78)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -534,20 +510,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q1"
-				(at 12.7 -12.7 0)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "BSP135H6433XTMA1"
-				(at 12.7 -10.16 0)
+				(at 21.59 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "private:SOT230P700X180-4N"
@@ -660,7 +638,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "D_1"
 						(effects
@@ -678,7 +656,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "S"
 						(effects
@@ -813,6 +791,164 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -990,8 +1126,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L1"
-				(at 0 4.318 0)
+			(property "Reference" "L"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -999,15 +1135,14 @@
 				)
 			)
 			(property "Value" "L_Coupled_1342"
-				(at -0.381 5.08 0)
+				(at 0 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "private:WE-SL5_HC"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1264,7 +1399,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1282,7 +1417,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -3791,6 +3926,12 @@
 		(uuid "1ff94ff9-b589-4d18-ad1c-9b556732e2bc")
 	)
 	(junction
+		(at 116.84 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32336908-5e05-4560-8eee-fa13d5b3a2cb")
+	)
+	(junction
 		(at 261.62 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4230,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 77.47) (xy 26.67 87.63)
+			(xy 26.67 74.93) (xy 26.67 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4580,6 +4721,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 22.86) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1609ab-de22-4829-a4d6-3d9bd369d248")
+	)
+	(wire
+		(pts
 			(xy 95.25 106.68) (xy 113.03 106.68)
 		)
 		(stroke
@@ -4697,16 +4848,6 @@
 			(type default)
 		)
 		(uuid "7a248091-d2e1-44bb-8d24-1375d4dfae0c")
-	)
-	(wire
-		(pts
-			(xy 52.07 77.47) (xy 26.67 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8005cae2-0d1c-4ea4-9d3e-a6efb0b2f769")
 	)
 	(wire
 		(pts
@@ -5190,6 +5331,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 67.31) (xy 26.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbff0f02-604e-4e50-9c3f-e8026a8a1f49")
+	)
+	(wire
+		(pts
 			(xy 125.73 30.48) (xy 125.73 25.4)
 		)
 		(stroke
@@ -5260,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 25.4) (xy 113.03 25.4)
+			(xy 125.73 25.4) (xy 116.84 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5337,6 +5488,16 @@
 			(type default)
 		)
 		(uuid "ee9a97e7-7927-4a21-a188-8d246faa832e")
+	)
+	(wire
+		(pts
+			(xy 116.84 25.4) (xy 113.03 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefafab3-8fae-4c84-b187-1c0e3048990b")
 	)
 	(wire
 		(pts
@@ -5420,7 +5581,7 @@
 	)
 	(global_label "Vs"
 		(shape input)
-		(at 52.07 69.85 90)
+		(at 26.67 66.04 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5430,7 +5591,7 @@
 		)
 		(uuid "09671815-ee0a-4718-a759-050b67ba0a2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 64.7481 90)
+			(at 26.67 60.9381 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5603,7 @@
 	)
 	(global_label "Vs"
 		(shape input)
-		(at 116.84 25.4 90)
+		(at 116.84 22.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5452,7 +5613,7 @@
 		)
 		(uuid "51b44c0c-cdc4-42a0-a7e4-6e0e06ba6033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 20.2981 90)
+			(at 116.84 17.7581 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 243.84 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6043,7 +6204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 243.84 33.02 0)
 			(effects
 				(font
@@ -7113,7 +7274,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 125.73 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7157,7 +7318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -7608,7 +7769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 265.43 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7652,7 +7813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 265.43 33.02 0)
 			(effects
 				(font
@@ -7702,7 +7863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "private:61600159"
+		(property "Footprint" "61600159"
 			(at 11.43 -59.36 0)
 			(effects
 				(font
@@ -8397,7 +8558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 138.43 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8441,7 +8602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 138.43 34.29 0)
 			(effects
 				(font
@@ -8532,7 +8693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 254 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8576,7 +8737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 254 33.02 0)
 			(effects
 				(font
@@ -9010,7 +9171,6 @@
 		)
 	)
 	(symbol
-		(lib_name "750313417_1")
 		(lib_id "2024-11-26_16-51-12:750313417")
 		(at 189.23 26.67 0)
 		(unit 1)
@@ -9036,7 +9196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "private:SMD_13417_WRE"
+		(property "Footprint" "SMD_13417_WRE"
 			(at 186.182 17.272 0)
 			(effects
 				(font
@@ -9111,7 +9271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 121.92 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9155,7 +9315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -9246,7 +9406,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 73.66 0)
+		(at 26.67 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9254,7 +9414,7 @@
 		(dnp no)
 		(uuid "bfad5c2c-f091-4af3-a815-8eb29453db5d")
 		(property "Reference" "R7"
-			(at 54.61 72.3899 0)
+			(at 29.21 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9423,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 54.61 74.9299 0)
+			(at 29.21 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9432,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 50.292 73.66 90)
+			(at 24.892 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 73.66 0)
+			(at 26.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9450,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 73.66 0)
+			(at 26.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 135.89 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9424,7 +9584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 135.89 93.98 0)
 			(effects
 				(font
